@@ -4,7 +4,7 @@ import random
 
 # create a list of 10 random numbers between 1 and 100
 numbers = [random.randint(1, 100) for _ in range(10)]
-print("list with even numbers:")
+print("List with even numbers:")
 
 # use a for loop to go through the list
 for number in numbers:
