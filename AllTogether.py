@@ -13,10 +13,14 @@ for number in numbers:
 # use a while loop to remove all even numbers
 i = 0
 while i < len(numbers):
-    if numbers[i] % 2 == 0:  # If the number is even
-        numbers.pop(i)  # Remove the number at the current i
+        # If the number is even
+    if numbers[i] % 2 == 0:  
+        # Remove the number at the current i
+        numbers.pop(i)  
+        
     else:
-        i += 1  # only go through if the element was not removed
+        # only go through if the element was not removed
+        i += 1  
 
 # print the remaining odd numbers
 print("Remaining odd numbers:", numbers)
