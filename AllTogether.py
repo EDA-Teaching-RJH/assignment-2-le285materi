@@ -7,7 +7,7 @@ numbers = [random.randint(1, 100) for _ in range(10)]
 print("List with even numbers:")
 
 for number in numbers:
-    print(str("Checking") + ": " + str(number))
+    print(str("Checking") + " : " + str(number))
 
 
 i = 0
