@@ -1,12 +1,12 @@
 ### Part Three -- your code goes here. 
 
-numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
+list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
 
-numbers.sort()
+list.sort()
 
-while 1 in numbers:
-    numbers.remove(1)
+while 1 in list:
+    list.remove(1)
 
-numbers += [7, 8]
+list += [7, 8]
 
-print(numbers)
+print(list)
